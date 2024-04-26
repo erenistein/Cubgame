@@ -1,0 +1,37 @@
+﻿  main.cpp
+C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(216,29): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(255,21): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(255,15): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(344,66): warning C4244: 'bağımsız değişken': 'int' - 'GLfloat' dönüşümü; veri kaybı olabilir
+C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(344,33): warning C4244: 'bağımsız değişken': 'unsigned __int64' - 'GLfloat' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'bağımsız değişken': '_Ty' - 'float' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  ('main.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\90553\OneDrive\Masaüstü\cubgame\cubgame\main.cpp(425,14):
+  	derlenen şablon işlevi 'std::shared_ptr<Player> std::make_shared<Player,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)' örneği oluşturma başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
+  	derlenen şablon işlevi 'std::_Ref_count_obj2<Player>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,_Ty>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,_Ty &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
+  	derlenen şablon işlevi 'void std::_Construct_in_place<_Ty,int,int,int,int,int>(_Ty &,int &&,int &&,int &&,int &&,int &&) noexcept(false)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=Player
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'bağımsız değişken': '_Ty' - 'float' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+  cubgame.vcxproj -> C:\Users\90553\OneDrive\Masaüstü\cubgame\x64\Debug\cubgame.exe
